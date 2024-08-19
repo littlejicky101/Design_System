@@ -1,0 +1,117 @@
+header {
+    text-align: center;
+    padding: 20px; /* Optional: Adds some padding around the header */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+} 
+
+nav ul li {
+    display: inline; /* Make the list items inline */
+    margin-right: 20px; /* Optional: Add space between the items */
+}
+
+nav ul li a {
+    text-decoration: underline; 
+    color: blue;
+    font-weight: bold;
+    font-family: "roboto", sans-serif;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 10%;
+}
+
+.container{
+    border: 2px solid black;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+.color-container{
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    width: 30%;
+    min-height: 100px;
+    max-height: 200px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+.AliceBlue {
+    background-color: #f0f8ff;
+}
+
+.AntiqueWhite{
+    background-color: #faebd7;
+}
+
+.Aqua{
+    background-color: #00FFFF;
+}
+
+.Crimson{
+    background-color: #DC143C;
+    color: white;
+}
+
+.DarkGoldenRod{
+    background-color: #B8860B;
+    color: white;
+}
+
+.DarkGrey{
+    background-color: #BDB76B;
+    color: white;
+}
+
+.font-containers{
+    width: 100%;
+}
+
+.font-label{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#Roboto{
+    font-family: "Roboto", sans-serif;
+}
+
+#Matemasie{
+    font-family: 'Matemasie', sans-serif;
+}
+
+#BungeeTint{
+    font-family:"Bungee Tint", sans-serif;
+}
+
+.textpanel{
+    width: 100%;
+    margin: 5px;
+}
+
+.text-panel ul li{
+    margin-bottom: 10px;
+}
+
+.text-panel #h1{
+    font-family: "Roboto", sans-serif;
+}
+
+.text-panel #h2{
+    font-family: "Roboto", sans-serif;
+}
+
+.text-panel #p{
+    font-family: Arial, Helvetica, sans-serif;
+}
